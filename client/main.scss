@@ -1,5 +1,9 @@
 /* CSS declarations go here */
 @import "{poetic:materialize-scss}/sass/components/_color.scss";
-$primary-color: color("teal", "darken-4");
+$primary-color: color("teal", "darken-3");
 @import "{poetic:materialize-scss}/sass/materialize.scss";
 @import "./stylesheets/_stickyfooter.scss";
+
+.full-w {
+  width: 100%;
+}
